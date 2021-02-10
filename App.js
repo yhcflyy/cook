@@ -11,6 +11,7 @@ import { Image } from "react-native";
 import Home from "./src/tabbar/Home";
 import Detail from "./src/test/Detail";
 import PostPage from "./src/test/Post";
+import Recommend from "./src/Home/recommend";
 
 // import 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
@@ -39,6 +40,7 @@ const App: () => React$Node = () => {
         }} />
         <Stack.Screen name="Detail" component={Detail} initialParams={{ 'itemId': 987 }} />
         <Stack.Screen name="PostPage" component={PostPage} initialParams={{ 'itemId': 987 }} />
+        <Stack.Screen name="Recommend" component={Recommend} />
 
       </Stack.Navigator>
     </NavigationContainer>

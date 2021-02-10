@@ -24,7 +24,8 @@ const Home = ({route,navigation})=>{
             </TouchableOpacity>
             
             <TouchableOpacity style={{marginTop:20,backgroundColor:'#ffff00',}} onPress={()=>{
-                navigation.navigate('PostPage')
+                // navigation.navigate('PostPage')
+                navigation.push('Recommend')
             }}>
                 <Text style={{}}>go to post</Text>
             </TouchableOpacity>
