@@ -12,7 +12,8 @@ import Home from "./src/tabbar/Home";
 import Detail from "./src/test/Detail";
 import PostPage from "./src/test/Post";
 import Recommend from "./src/Home/recommend";
-
+import NativeCookMap from "./src/Home/NativeCookMap";
+import VideoView from "./src/Home/VideoView";
 // import 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
@@ -55,42 +56,42 @@ const HomeTabs = () => {
       activeTintColor: '#fa6651',
       inactiveTintColor: '#333333',
       labelStyle:{
-        fontSize:14
+        fontSize:12
       }
     }}>
     <Tab.Screen name="Home" component={Home} options={{
       tabBarLabel : '首页',
       tabBarIcon : ({ focused, color, size }) => {
         const image = focused ? require('./images/tab_home_selected.png') : require('./images/tab_home.png')
-        return <Image source={image} style={{width:28,height:28}}></Image>
+        return <Image source={image} style={{width:22,height:22}}></Image>
       }
     }}/>
-    <Tab.Screen name="Market" component={Detail} options={{
+    <Tab.Screen name="Market" component={NativeCookMap} options={{
       tabBarLabel : '市集',
       tabBarIcon : ({ focused, color, size }) => {
         const image = focused ? require('./images/tab_market_selected.png') : require('./images/tab_market.png')
-        return <Image source={image} style={{width:28,height:28}}></Image>
+        return <Image source={image} style={{width:22,height:22}}></Image>
       }
     }}/>
-    <Tab.Screen name="Course" component={Home} options={{
+    <Tab.Screen name="Course" component={VideoView} options={{
       tabBarLabel : '课堂',
       tabBarIcon : ({ focused, color, size }) => {
         const image = focused ? require('./images/tab_course_selected.png') : require('./images/tab_course.png')
-        return <Image source={image} style={{width:28,height:28}}></Image>
+        return <Image source={image} style={{width:22,height:22}}></Image>
       }
     }}/>
     <Tab.Screen name="Favarite" component={Detail} options={{
       tabBarLabel : '收藏',
       tabBarIcon : ({ focused, color, size }) => {
         const image = focused ? require('./images/tab_favarite_selected.png') : require('./images/tab_favarite.png')
-        return <Image source={image} style={{width:28,height:28}}></Image>
+        return <Image source={image} style={{width:22,height:22}}></Image>
       }
     }}/>
     <Tab.Screen name="Me" component={Home} options={{
       tabBarLabel : '我',
       tabBarIcon : ({ focused, color, size }) => {
         const image = focused ? require('./images/tab_profile_selected.png') : require('./images/tab_profile.png')
-        return <Image source={image} style={{width:28,height:28}}></Image>
+        return <Image source={image} style={{width:22,height:22}}></Image>
       }
     }}/>
   </Tab.Navigator>
