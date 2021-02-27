@@ -1,0 +1,16 @@
+PODS:
+  - CookMapModule (0.1.0)
+
+DEPENDENCIES:
+  - CookMapModule (from `../`)
+
+EXTERNAL SOURCES:
+  CookMapModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CookMapModule: 6f03af0ff2d7e69094ab9e4013953cb696f31cc7
+
+PODFILE CHECKSUM: 31f26fc30218d769a3d7dc2ef8a0936d97544d0a
+
+COCOAPODS: 1.10.1

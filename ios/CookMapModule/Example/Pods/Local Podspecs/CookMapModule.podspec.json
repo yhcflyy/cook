@@ -1,0 +1,31 @@
+{
+  "name": "CookMapModule",
+  "version": "0.1.0",
+  "summary": "A short description of CookMapModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/472574996@qq.com/CookMapModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "472574996@qq.com": "472574996@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/472574996@qq.com/CookMapModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CookMapModule/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "React": [
+
+    ]
+  }
+}

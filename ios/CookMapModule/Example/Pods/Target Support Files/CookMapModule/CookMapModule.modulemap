@@ -1,0 +1,6 @@
+framework module CookMapModule {
+  umbrella header "CookMapModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

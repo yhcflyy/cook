@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'CookMapModule_Example' do
+  pod 'CookMapModule', :path => '../'
+
+  target 'CookMapModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

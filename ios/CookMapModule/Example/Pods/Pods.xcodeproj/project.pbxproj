@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08EBD268167C974C67E65C9B0891CEFE /* Pods-CookMapModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69A66D974B9A4A6B3D3AC26B2AD59CD4 /* Pods-CookMapModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A454BB574A69EF06F909A3A0EC620E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		15E1F8C81E3BAC6A9968C675299E2A27 /* CookMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C10BB3B68673FF889DF77CB9683B12 /* CookMapView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B7F7C7D7719EE4416A1A7BFD66C7B70 /* CookMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1C60810C75A02AAB79720020574141 /* CookMapManager.m */; };
+		1D39CDB969AAC41F78B8D612EA254CDA /* CookMapModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34F002CBA55642AA8A3D3F4B96DE2651 /* CookMapModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20629B29DB1CA1528F755F9150756E86 /* CookMapManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4927ECCC9A0762F5B4EABC3BC3078482 /* CookMapManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B300A7E06CCBF00987144DBC4556ADE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2BAB97B5771E3B23A72A6ADA9A3F979F /* Pods-CookMapModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 245CCA3DFD84334946E08222826635AC /* Pods-CookMapModule_Tests-dummy.m */; };
+		2BC59A8AF54CD69230C5C2D3A4FD4A65 /* CookMapModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1589A15F059CC7F904A4E42BE37C7F /* CookMapModule-dummy.m */; };
+		40AFA30483C63C55E6239F379F26B4DE /* RCTConvert+Mapkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3988EAD1F9E64AFA1D3F7E284DC7F0F9 /* RCTConvert+Mapkit.m */; };
+		55F463200EABDCF649D69D20609B2EA9 /* Pods-CookMapModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B739D1A1A73FF5E5663731625A0FFF22 /* Pods-CookMapModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78DD8C4D99607ECD81B81FD541FC372C /* RCTConvert+Mapkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2116752837980801D0BCB26DF3458D87 /* RCTConvert+Mapkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BC745460CF9873F1602BB91DAC42580 /* CookMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FB663ED39D580886A0F7A52931D55B /* CookMapView.m */; };
+		80316349688154B1CC35E7AF98F6790A /* Pods-CookMapModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A07AC1DFA31D9CD15E5DF173DA486196 /* Pods-CookMapModule_Example-dummy.m */; };
+		A74FD42C716688ABAEC8796D81B55EE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42A071DB6718AC3062BB7E8D51814835 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC41EC9C73CFB7991C78CC43F744FDED;
+			remoteInfo = "Pods-CookMapModule_Example";
+		};
+		C099F4970DB405B3D5BD9BDB7E931354 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E37D298D3CE06EAB35A74D88ACAD91C;
+			remoteInfo = CookMapModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006D1644458AB7D717976B982D540ECD /* Pods_CookMapModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CookMapModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03FB663ED39D580886A0F7A52931D55B /* CookMapView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CookMapView.m; path = CookMapModule/Classes/CookMapView.m; sourceTree = "<group>"; };
+		0EB18607DCA2DDA68CAA3BA331EAA535 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0F98546D2D07BD88AB670587A5288F4F /* Pods-CookMapModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CookMapModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2116752837980801D0BCB26DF3458D87 /* RCTConvert+Mapkit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RCTConvert+Mapkit.h"; path = "CookMapModule/Classes/RCTConvert+Mapkit.h"; sourceTree = "<group>"; };
+		245CCA3DFD84334946E08222826635AC /* Pods-CookMapModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CookMapModule_Tests-dummy.m"; sourceTree = "<group>"; };
+		34F002CBA55642AA8A3D3F4B96DE2651 /* CookMapModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CookMapModule-umbrella.h"; sourceTree = "<group>"; };
+		3988EAD1F9E64AFA1D3F7E284DC7F0F9 /* RCTConvert+Mapkit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RCTConvert+Mapkit.m"; path = "CookMapModule/Classes/RCTConvert+Mapkit.m"; sourceTree = "<group>"; };
+		430A6E445D1EAD8B3E89F2861A91BC3F /* Pods_CookMapModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CookMapModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4927ECCC9A0762F5B4EABC3BC3078482 /* CookMapManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CookMapManager.h; path = CookMapModule/Classes/CookMapManager.h; sourceTree = "<group>"; };
+		4DFBF5CEFE645368BFEB63815BB2F754 /* Pods-CookMapModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CookMapModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		574B5EBCFCF2D6AE6722787A7EEB6C5E /* Pods-CookMapModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CookMapModule_Tests.modulemap"; sourceTree = "<group>"; };
+		57C6B5B83242A33BB5DB4EB2CB603DE6 /* Pods-CookMapModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CookMapModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		656098E524D49A78510F5CCB1891445D /* CookMapModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CookMapModule.release.xcconfig; sourceTree = "<group>"; };
+		69A66D974B9A4A6B3D3AC26B2AD59CD4 /* Pods-CookMapModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CookMapModule_Example-umbrella.h"; sourceTree = "<group>"; };
+		6C61CF7FE68B5A537362122FFE839A00 /* CookMapModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CookMapModule.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		71A3F5C447CF65853145C0270FBA7014 /* Pods-CookMapModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CookMapModule_Tests-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		750246275B219AFC49C0FFB5F2CBEB6A /* Pods-CookMapModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CookMapModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7F44B9CFAFA3EA32505F33AD64F513E9 /* CookMapModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CookMapModule.debug.xcconfig; sourceTree = "<group>"; };
+		7FCD3E85F86FCDAAB4A5A8C5727CB493 /* CookMapModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CookMapModule-prefix.pch"; sourceTree = "<group>"; };
+		8A9E6A11DE40B0CA827EE31C89D12411 /* CookMapModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CookMapModule-Info.plist"; sourceTree = "<group>"; };
+		9B1589A15F059CC7F904A4E42BE37C7F /* CookMapModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CookMapModule-dummy.m"; sourceTree = "<group>"; };
+		9BE5E6AA2579A2BF502CE1787C82EE9C /* CookMapModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CookMapModule.modulemap; sourceTree = "<group>"; };
+		9D1C60810C75A02AAB79720020574141 /* CookMapManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CookMapManager.m; path = CookMapModule/Classes/CookMapManager.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A07AC1DFA31D9CD15E5DF173DA486196 /* Pods-CookMapModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CookMapModule_Example-dummy.m"; sourceTree = "<group>"; };
+		A40A0F8654CA00BB03631CD57E4C7E59 /* Pods-CookMapModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CookMapModule_Example-Info.plist"; sourceTree = "<group>"; };
+		AD449C67FF6D73CA587C7DF18498382C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B739D1A1A73FF5E5663731625A0FFF22 /* Pods-CookMapModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CookMapModule_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C8CCCEF6D289B4D2C1828F718E1B5007 /* Pods-CookMapModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CookMapModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CC7AC6DCD18F57B5E2CF89EF78442291 /* Pods-CookMapModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CookMapModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CFD5E46E4A5C7EC1C2EEABB7C2B0308A /* Pods-CookMapModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CookMapModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E03A67A2ADFEE935312AED495B7B2511 /* CookMapModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CookMapModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19AB22D74417146DA888450F46B29E6 /* Pods-CookMapModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CookMapModule_Example.modulemap"; sourceTree = "<group>"; };
+		E5C24CC108679C465907F37866B6AB55 /* Pods-CookMapModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CookMapModule_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F1C10BB3B68673FF889DF77CB9683B12 /* CookMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CookMapView.h; path = CookMapModule/Classes/CookMapView.h; sourceTree = "<group>"; };
+		FFBA92873B2452F811C126A4AC03C377 /* Pods-CookMapModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CookMapModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82164791CDD8D919884398E4957D1580 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74FD42C716688ABAEC8796D81B55EE8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A855BA7957458AD3E38FC1029F958F26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A454BB574A69EF06F909A3A0EC620E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDDDD5527E82B2732C2FB2CBCC743D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B300A7E06CCBF00987144DBC4556ADE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E0C4C7E223A7057A4E44AF6A3671412 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1A81343BED375CF40C1733663ED56C9 /* CookMapModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A44D686F1FD1CBD679C1E2F763D8BE0D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BE5E6AA2579A2BF502CE1787C82EE9C /* CookMapModule.modulemap */,
+				9B1589A15F059CC7F904A4E42BE37C7F /* CookMapModule-dummy.m */,
+				8A9E6A11DE40B0CA827EE31C89D12411 /* CookMapModule-Info.plist */,
+				7FCD3E85F86FCDAAB4A5A8C5727CB493 /* CookMapModule-prefix.pch */,
+				34F002CBA55642AA8A3D3F4B96DE2651 /* CookMapModule-umbrella.h */,
+				7F44B9CFAFA3EA32505F33AD64F513E9 /* CookMapModule.debug.xcconfig */,
+				656098E524D49A78510F5CCB1891445D /* CookMapModule.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CookMapModule";
+			sourceTree = "<group>";
+		};
+		A7BD70444E518B1DB659BD3A3FC23C5B /* Pods-CookMapModule_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				574B5EBCFCF2D6AE6722787A7EEB6C5E /* Pods-CookMapModule_Tests.modulemap */,
+				FFBA92873B2452F811C126A4AC03C377 /* Pods-CookMapModule_Tests-acknowledgements.markdown */,
+				57C6B5B83242A33BB5DB4EB2CB603DE6 /* Pods-CookMapModule_Tests-acknowledgements.plist */,
+				245CCA3DFD84334946E08222826635AC /* Pods-CookMapModule_Tests-dummy.m */,
+				71A3F5C447CF65853145C0270FBA7014 /* Pods-CookMapModule_Tests-Info.plist */,
+				B739D1A1A73FF5E5663731625A0FFF22 /* Pods-CookMapModule_Tests-umbrella.h */,
+				CFD5E46E4A5C7EC1C2EEABB7C2B0308A /* Pods-CookMapModule_Tests.debug.xcconfig */,
+				0F98546D2D07BD88AB670587A5288F4F /* Pods-CookMapModule_Tests.release.xcconfig */,
+			);
+			name = "Pods-CookMapModule_Tests";
+			path = "Target Support Files/Pods-CookMapModule_Tests";
+			sourceTree = "<group>";
+		};
+		BC066DBE7F7DBD50E50E361E4E84A5D8 /* Pods-CookMapModule_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E19AB22D74417146DA888450F46B29E6 /* Pods-CookMapModule_Example.modulemap */,
+				750246275B219AFC49C0FFB5F2CBEB6A /* Pods-CookMapModule_Example-acknowledgements.markdown */,
+				C8CCCEF6D289B4D2C1828F718E1B5007 /* Pods-CookMapModule_Example-acknowledgements.plist */,
+				A07AC1DFA31D9CD15E5DF173DA486196 /* Pods-CookMapModule_Example-dummy.m */,
+				E5C24CC108679C465907F37866B6AB55 /* Pods-CookMapModule_Example-frameworks.sh */,
+				A40A0F8654CA00BB03631CD57E4C7E59 /* Pods-CookMapModule_Example-Info.plist */,
+				69A66D974B9A4A6B3D3AC26B2AD59CD4 /* Pods-CookMapModule_Example-umbrella.h */,
+				4DFBF5CEFE645368BFEB63815BB2F754 /* Pods-CookMapModule_Example.debug.xcconfig */,
+				CC7AC6DCD18F57B5E2CF89EF78442291 /* Pods-CookMapModule_Example.release.xcconfig */,
+			);
+			name = "Pods-CookMapModule_Example";
+			path = "Target Support Files/Pods-CookMapModule_Example";
+			sourceTree = "<group>";
+		};
+		C176957ABD5DA1DB30948470C03FD579 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6C61CF7FE68B5A537362122FFE839A00 /* CookMapModule.podspec */,
+				0EB18607DCA2DDA68CAA3BA331EAA535 /* LICENSE */,
+				AD449C67FF6D73CA587C7DF18498382C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2E0C4C7E223A7057A4E44AF6A3671412 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E99AF333E2D1A83A9E3A8BD1CB962859 /* Products */,
+				D033A0F07D005CB4325607628ECABC60 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D033A0F07D005CB4325607628ECABC60 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC066DBE7F7DBD50E50E361E4E84A5D8 /* Pods-CookMapModule_Example */,
+				A7BD70444E518B1DB659BD3A3FC23C5B /* Pods-CookMapModule_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D1A81343BED375CF40C1733663ED56C9 /* CookMapModule */ = {
+			isa = PBXGroup;
+			children = (
+				4927ECCC9A0762F5B4EABC3BC3078482 /* CookMapManager.h */,
+				9D1C60810C75A02AAB79720020574141 /* CookMapManager.m */,
+				F1C10BB3B68673FF889DF77CB9683B12 /* CookMapView.h */,
+				03FB663ED39D580886A0F7A52931D55B /* CookMapView.m */,
+				2116752837980801D0BCB26DF3458D87 /* RCTConvert+Mapkit.h */,
+				3988EAD1F9E64AFA1D3F7E284DC7F0F9 /* RCTConvert+Mapkit.m */,
+				C176957ABD5DA1DB30948470C03FD579 /* Pod */,
+				A44D686F1FD1CBD679C1E2F763D8BE0D /* Support Files */,
+			);
+			name = CookMapModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E99AF333E2D1A83A9E3A8BD1CB962859 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E03A67A2ADFEE935312AED495B7B2511 /* CookMapModule.framework */,
+				430A6E445D1EAD8B3E89F2861A91BC3F /* Pods_CookMapModule_Example.framework */,
+				006D1644458AB7D717976B982D540ECD /* Pods_CookMapModule_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A4F1A134915996ED8E8D2BAE9553A06F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08EBD268167C974C67E65C9B0891CEFE /* Pods-CookMapModule_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A957B110D84E85C0861F85AA845F9A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F463200EABDCF649D69D20609B2EA9 /* Pods-CookMapModule_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0BDB66DE5FEFEFAD4AE9B891A2EAECC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20629B29DB1CA1528F755F9150756E86 /* CookMapManager.h in Headers */,
+				1D39CDB969AAC41F78B8D612EA254CDA /* CookMapModule-umbrella.h in Headers */,
+				15E1F8C81E3BAC6A9968C675299E2A27 /* CookMapView.h in Headers */,
+				78DD8C4D99607ECD81B81FD541FC372C /* RCTConvert+Mapkit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		358DD1F1724123530E1FF2817CA606E2 /* Pods-CookMapModule_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C51E11A7ED7F2349EF1512FFC48B2200 /* Build configuration list for PBXNativeTarget "Pods-CookMapModule_Tests" */;
+			buildPhases = (
+				F0A957B110D84E85C0861F85AA845F9A /* Headers */,
+				225E4F98DF008757D14C843D48061C0D /* Sources */,
+				82164791CDD8D919884398E4957D1580 /* Frameworks */,
+				4ACC3E44A67B621E971BF32FB8A708B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				209C7774FE55944C960B078553671AFC /* PBXTargetDependency */,
+			);
+			name = "Pods-CookMapModule_Tests";
+			productName = "Pods-CookMapModule_Tests";
+			productReference = 006D1644458AB7D717976B982D540ECD /* Pods_CookMapModule_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5E37D298D3CE06EAB35A74D88ACAD91C /* CookMapModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E662A42C5F76256955E58115D98F50E /* Build configuration list for PBXNativeTarget "CookMapModule" */;
+			buildPhases = (
+				F0BDB66DE5FEFEFAD4AE9B891A2EAECC /* Headers */,
+				244EF09064B016002389F68494B31DBA /* Sources */,
+				A855BA7957458AD3E38FC1029F958F26 /* Frameworks */,
+				E46A965A112C847E9724552C2483F14B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CookMapModule;
+			productName = CookMapModule;
+			productReference = E03A67A2ADFEE935312AED495B7B2511 /* CookMapModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EC41EC9C73CFB7991C78CC43F744FDED /* Pods-CookMapModule_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685A4B9E9F2A3E1B318DA5BA6C5D66B4 /* Build configuration list for PBXNativeTarget "Pods-CookMapModule_Example" */;
+			buildPhases = (
+				A4F1A134915996ED8E8D2BAE9553A06F /* Headers */,
+				C2FD47CD361A486D12D035E3B6A245E1 /* Sources */,
+				FBDDDD5527E82B2732C2FB2CBCC743D7 /* Frameworks */,
+				EF9C00B8E53BAC4B099F66AE9DCA3055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				792DAA5E120F2D24B2F03123C2BE78BA /* PBXTargetDependency */,
+			);
+			name = "Pods-CookMapModule_Example";
+			productName = "Pods-CookMapModule_Example";
+			productReference = 430A6E445D1EAD8B3E89F2861A91BC3F /* Pods_CookMapModule_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E99AF333E2D1A83A9E3A8BD1CB962859 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E37D298D3CE06EAB35A74D88ACAD91C /* CookMapModule */,
+				EC41EC9C73CFB7991C78CC43F744FDED /* Pods-CookMapModule_Example */,
+				358DD1F1724123530E1FF2817CA606E2 /* Pods-CookMapModule_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ACC3E44A67B621E971BF32FB8A708B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E46A965A112C847E9724552C2483F14B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9C00B8E53BAC4B099F66AE9DCA3055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		225E4F98DF008757D14C843D48061C0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BAB97B5771E3B23A72A6ADA9A3F979F /* Pods-CookMapModule_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244EF09064B016002389F68494B31DBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7F7C7D7719EE4416A1A7BFD66C7B70 /* CookMapManager.m in Sources */,
+				2BC59A8AF54CD69230C5C2D3A4FD4A65 /* CookMapModule-dummy.m in Sources */,
+				7BC745460CF9873F1602BB91DAC42580 /* CookMapView.m in Sources */,
+				40AFA30483C63C55E6239F379F26B4DE /* RCTConvert+Mapkit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FD47CD361A486D12D035E3B6A245E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80316349688154B1CC35E7AF98F6790A /* Pods-CookMapModule_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		209C7774FE55944C960B078553671AFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CookMapModule_Example";
+			target = EC41EC9C73CFB7991C78CC43F744FDED /* Pods-CookMapModule_Example */;
+			targetProxy = 42A071DB6718AC3062BB7E8D51814835 /* PBXContainerItemProxy */;
+		};
+		792DAA5E120F2D24B2F03123C2BE78BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CookMapModule;
+			target = 5E37D298D3CE06EAB35A74D88ACAD91C /* CookMapModule */;
+			targetProxy = C099F4970DB405B3D5BD9BDB7E931354 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01BA06E434967AB1CE2BC6BE31282ED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC7AC6DCD18F57B5E2CF89EF78442291 /* Pods-CookMapModule_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CookMapModule_Example/Pods-CookMapModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CookMapModule_Example/Pods-CookMapModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0710ADB935F76409F3C35B607836A2BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F44B9CFAFA3EA32505F33AD64F513E9 /* CookMapModule.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CookMapModule/CookMapModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CookMapModule/CookMapModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CookMapModule/CookMapModule.modulemap";
+				PRODUCT_MODULE_NAME = CookMapModule;
+				PRODUCT_NAME = CookMapModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1658519DA34AE89AE5D5DB67B61FAF84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFD5E46E4A5C7EC1C2EEABB7C2B0308A /* Pods-CookMapModule_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CookMapModule_Tests/Pods-CookMapModule_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CookMapModule_Tests/Pods-CookMapModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		36C0BB8A8B9821E216F2CFB271455418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 656098E524D49A78510F5CCB1891445D /* CookMapModule.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CookMapModule/CookMapModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CookMapModule/CookMapModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CookMapModule/CookMapModule.modulemap";
+				PRODUCT_MODULE_NAME = CookMapModule;
+				PRODUCT_NAME = CookMapModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F1D05220AC58BAF13C365ABE28A90E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DFBF5CEFE645368BFEB63815BB2F754 /* Pods-CookMapModule_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CookMapModule_Example/Pods-CookMapModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CookMapModule_Example/Pods-CookMapModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D62DF7C9815E752449A4D292603A1756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F98546D2D07BD88AB670587A5288F4F /* Pods-CookMapModule_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CookMapModule_Tests/Pods-CookMapModule_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CookMapModule_Tests/Pods-CookMapModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		685A4B9E9F2A3E1B318DA5BA6C5D66B4 /* Build configuration list for PBXNativeTarget "Pods-CookMapModule_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1D05220AC58BAF13C365ABE28A90E7 /* Debug */,
+				01BA06E434967AB1CE2BC6BE31282ED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E662A42C5F76256955E58115D98F50E /* Build configuration list for PBXNativeTarget "CookMapModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0710ADB935F76409F3C35B607836A2BB /* Debug */,
+				36C0BB8A8B9821E216F2CFB271455418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C51E11A7ED7F2349EF1512FFC48B2200 /* Build configuration list for PBXNativeTarget "Pods-CookMapModule_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1658519DA34AE89AE5D5DB67B61FAF84 /* Debug */,
+				D62DF7C9815E752449A4D292603A1756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
